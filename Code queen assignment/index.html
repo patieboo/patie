@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patie's Coffee Shop</title>
+        <link rel="stylesheet"href="./CSS/index.css"/>
+    </head>
+    <body>
+        <header>
+            <li class="logo"><img src="./Images/logo.png"></li>
+            <nav> 
+                <ul>
+                    <li><a href="#home">Home</a>
+                    <li><a href="#news">News</a>
+                    <li><a href="./Pages/about.html">About Us</a></li>
+                    <li><a href="./Pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Welcome to Patie's Coffee Shop</h1>
+        <div class="container">
+            <img src="./Images/coffee and food.jpg"alt="coffee and food"/>
+    
+                <h3>Please leave feedback below</h3>
+<form id="review-form" method="POST" action="./index.html">
+            <div input="input-element">
+            <label for="Full-Name">     Full Name;</label>
+            <input type="text" placeholder="Patricia Nambozo" id="Full-Name" name="Full-Name"/>
+            </div>
+            <div input="input-element">
+            <label for="Email">     Email; </label>
+            <input type="text" placeholder="patnambozo2@gmail.com" id="Email" name="Email"/>
+            </div>
+            <div input="input-element">
+            <label for="Review">  Review;  </label>
+            <textarea name="Review" cols="20" rows="10">
+            </textarea>
+            </div>
+            <input type="submit" value="submit"/>
+</form>
+       
+        <div class="Feed">
+            <h3>RESTAURANT REVIEWS</h3>
+            <div class"review">
+                <h3 class="reviewer">Dominic</h3>
+                <p class="review-text">
+                    This food is amazing, the lighting is beautiful and the colors blend and the price is very friendly
+                </p>
+            </div>
+            <div class"review">
+                <h3 class="reviewer">Renee</h3>
+                <p class="review-text">
+                    The meal is very tasty, the coffee may be too strong but wonderful together with the freshness of the amazing scent.
+                </p>
+            </div>
+            <div class"review">
+                <h3 class="reviewer">Yvonne</h3>
+                <p class="review-text">
+                    The aroma pleases the nose, crispy and wonderful! Patie's coffee shop is the place to go.
+                </p>
+            </div>
+        </div>
+        <div>
+<h2>Menu</h2>
+        <ul class="menu">
+            <li>Coffee</li>
+            <li>Sandwich</li>
+            <li>Burger</li>
+            <li>Milk</li>
+            <li>Black Tea</li>
+        </div>
+    </body>
+</html>
