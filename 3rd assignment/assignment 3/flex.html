@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Working with flex</title>
+        <style>
+            body{
+                margin: 0;
+                background-color: radial-gradient(orangered, blue);
+            }
+            h2{
+                text-align: center;
+                text-transform: uppercase;
+                color: purple;
+            }
+            footer {
+                text-align: right;
+            }
+            .side-menu {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 300px;
+            
+                
+            }
+
+            
+            .container{
+                
+                display: grid;
+               
+                grid-template-columns: 80% 20% 20%;
+                
+            }
+            .main{
+                padding:1px;
+                margin: 0;
+                display: flex;
+                flex-flow: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                background-color: purple;
+    
+
+            }
+            .flex-item{
+                background:palevioletred;
+                height: 200px;
+                width: 300px;
+                padding: 5px;
+                margin: 9px;
+                order: 3;
+                flex:none, 2, 3;
+                border-radius: 10%;
+                overflow: hidden;
+        
+            }
+                
+    
+            .side-list{
+                background-color: white;
+                
+            }
+            a:hover {
+                background-color: black;
+                color: orangered;
+            }
+            .flex-item:hover{
+                box-shadow: 0 5px 3px 1px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Flex Card System</h2>
+        <div class="container">
+            <div class="main">
+            <div class="flex-item">
+                <p>1</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum aperiam aspernatur odio vel, alias blanditiis vero quaerat quas iste sunt culpa saepe consequuntur quia, impedit assumenda, ducimus aliquid nihil provident?</p>
+            </div>
+            <div class="flex-item">
+                <p>2</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>3</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>4</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>5</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>6</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>7</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>8</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>9</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>10</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>11</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="flex-item">
+                <p>12</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            </div>
+            <div class="side-list">
+                <ul class="side-menu">
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+        <li class="side-menu-item"><a href="">Click here</a></li>
+                </ul>
+            </div>
+            
+            </div>
+          
+        </div>
+        <div id="footer">
+            <p>&copy; Patricia Nambozo 2021</p>
+        </div>
+    </body>
+</html>

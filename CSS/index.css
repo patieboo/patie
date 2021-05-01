@@ -1,0 +1,206 @@
+/* tag selector */
+body{
+    background-color: mediumturquoise;
+    width: 90%;
+    margin: auto;
+    /* background-color: rgba(91, 84, 133, 0.342); */
+    /* background-image: linear-gradient(to top, #223bcf, #a88f1c ); */
+    background-image: radial-gradient(#223bcf, #a88f1c);
+}
+img.banner {
+    width: 100%;
+    height: 520px;
+}
+/* id selector */
+#logo {
+    float: left;
+
+}
+/* class selector */
+.navbar-top {
+    background-color: antiquewhite;
+    margin-top: 0px;
+    height: 50px;
+}
+.menu {
+    list-style-type: none;
+    display: block;
+}
+.menu > li {
+    display: inline;
+    float: right;
+    margin: 9px;
+    padding: 12px;
+}
+.menu >  li > a {
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:aqua
+}
+a.hover {
+    /*  color:cyan; */
+/* text-transform: uppercase; */
+/* mix of red green and blue */
+color: #bcaf3f;
+}
+a:active {
+    color: rgb(red, green, blue);
+}
+
+/*look inside of div with a class of feed
+for every div inside, look for it's child of element height: 4px;
+then apply style to it */
+
+.review{
+    background-color: #fff;
+    /* background-image: url('../Images/food.jpg'); */
+    /* background-size: cover; */
+    border-bottom: rgba(red, green, blue, alpha);
+    /* border-top: rgba(red, green, blue, alpha); */
+    margin: 5px;
+}
+div.feed>div>h4 { 
+color: rgb(red, green, blue);
+margin-bottom: 0;
+padding: 10px;
+
+}
+/* margins -> spacing our elements */
+/* plotting sections within our page */
+.feedback-form {
+    width: 40%;
+    float: left;
+    padding: 6px;
+}
+.feed {
+    width: 60%;
+    height: 490px;
+    float: right;
+    padding: 4px;
+    background: lightblue;
+    overflow:auto;
+}
+.review {
+    border-radius: 30px;
+    height: 250px;
+    overflow: hidden;
+}
+/* .card-content{
+    display: inline;
+    margin-bottom: 9px;
+    padding: 25px;
+} */
+
+.review-text {
+    /* color: rgb(red, green, blue); */
+    /* red, green blue opacity */
+    color:rgba(red, green, blue, alpha);
+    /* margin-top: 3px;
+    margin-bottom: 4px; */
+    padding: 10px;
+    margin: 9px;
+    padding: 3px 5px 5px 6px;
+    /* display: none; */
+    height: 100px;
+    /* text-align: right; */
+    width: 90%;
+
+}
+.reviewer {
+    font-style: italic;
+}
+.avatar {
+    height: 100px;
+    width: 20%;
+    float: left;
+    margin:5px;
+    border-radius: 45px;
+}
+.feedback-form {
+    padding: 4px;
+    background: white;
+    height: 250px;
+}
+label, .form-header {
+    font-weight: bold;
+    color: black;
+}
+.input-element input, textarea {
+    width: 100%;
+    /* padding: 5px; */
+    margin-bottom: 4px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    background: none;
+    border-bottom: 1px solid grey;
+    resize: none;
+}
+input[type='submit']:hover {
+    cursor: pointer;
+}
+input[type='submit'] {
+    background: rgb;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    text-align: left;
+}
+.review:hover {
+    box-shadow: 0 5px 8px 1px;
+}
+.container img{
+    display: block;
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: lightcoral;
+    text-align:center;
+    font-style: italic;
+    font-family: Trebuchet MS;
+}
+h2{
+    color: lightcoral;
+    font-style: italic;
+    font-family: Trebuchet MS;
+}
+
+header .logo img{
+   width: 30%;
+   height: 20%;
+}
+a:hover{
+    color: mediumturquoise;
+    text-transform: uppercase;
+}
+nav{
+    border: navy;
+}
+header{
+    background-color: lightcoral;
+    width: 100%;
+    overflow: hidden;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color:lightcyan;   
+}
+header nav{
+    float: right;
+}
+form{
+    background-color: lightcoral;
+    width: 100%;
+    overflow: hidden;
+}

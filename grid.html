@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title>Workking with Grid</title>
+        <style>
+            body{
+                margin: 0;
+                background-image: radial-gradient(orangered, blue);
+                /* width: 80%;
+                margin: 0 auto; */
+            }
+            h2{
+                text-align: center;
+                text-transform: uppercase;
+                color: aqua;
+            }
+            .container{
+                display: grid;
+                /* grid-template-columns: 25% 50% 25%; */
+                grid-template-columns: 20% 20% auto 30%;
+                grid-template-rows: repeat(auto);
+                /* grid-template-rows: 50% 30% 20%; */
+                grid-template-areas: 
+                "first first first first"
+                "news news . .";
+                column-gap: 2px;
+                row-gap: 3px;
+                justify-items: center;
+                align-items: end;
+            }
+            .grid-item{
+                background: cornflowerblue;
+                /* margin:3px; */
+                padding:6px;
+            }
+            .top {
+                grid-area: first;
+            }
+            .news {
+                grid-area: news;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Grid Card System</h2>
+        <div class="container">
+            <div class="grid-item top">
+                <p>1</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum aperiam aspernatur odio vel, alias blanditiis vero quaerat quas iste sunt culpa saepe consequuntur quia, impedit assumenda, ducimus aliquid nihil provident?</p>
+            </div>
+            <div class="grid-item news">
+                <p>2</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>3</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>4</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>5</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>6</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>7</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>8</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>9</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>10</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>11</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+            <div class="grid-item">
+                <p>12</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ea asperiores quisquam illo excepturi, fugit error est quasi suscipit ab voluptates impedit vel numquam tempora perspiciatis molestias magnam laborum nostrum?</p>
+            </div>
+        </div>
+    </body>
+</html>
