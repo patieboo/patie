@@ -1,5 +1,5 @@
 //COVID CHECK
-var temp=33;
+var temp=35;
 if (temp==33) {
     console.log("Normal temperature");
 }  
